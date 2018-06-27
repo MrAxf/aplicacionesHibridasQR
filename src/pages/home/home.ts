@@ -21,6 +21,7 @@ export class HomePage {
     if (!this.platform.is('cordova')) {
       this.historialProvider.agregarHistorial("http", "http://google.com");
       this.historialProvider.agregarHistorial("email", "MATMSG:TO:johndoe@gmail.com;SUB:Hello;BODY:Hello world;;");
+      this.historialProvider.agregarHistorial("mapa", "geo:36.8364634,-2.4209003,15");
       return;
     }
     this.barcodeScanner.scan()

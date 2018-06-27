@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ScanData } from '../../models/ScanData';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
-import { ModalController } from 'ionic-angular/umd';
+import { ModalController } from 'ionic-angular';
 import { MapaPage } from '../../pages/mapa/mapa';
 import { EmailComposer } from '@ionic-native/email-composer';
 
